@@ -1,5 +1,6 @@
-provider "aws" {
+ provider "aws" {
   version = "2.33.0"
+  region = "us-east-2"
 }
 
 resource "aws_iam_user" "Sujay" {
