@@ -18,7 +18,7 @@ resource "aws_iam_access_key" "Sujay" {
 
 resource "aws_iam_user_policy" "lb_ro" {
   name = "test"
-  user = aws_iam_user.lb.name
+  user = aws_iam_user.Sujay.name
 
   policy = <<EOF
 {
